@@ -28,3 +28,7 @@ test("fizzBuzz function return buzz passing a number multiple of 5", () => {
 test("fizzBuzz function return fizzbuzz passing a number multiple of 3 and 5", () => {
   expect(fizzBuzz(30)).toBe('fizzbuzz');
 });
+
+test("fizzBuzz function return the number passing a number that isnt multiple of 3 or 5", () => {
+  expect(fizzBuzz(7)).toBe(7);
+});
